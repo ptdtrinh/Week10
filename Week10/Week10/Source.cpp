@@ -16,7 +16,7 @@ public:
 
 int main()
 {
-	int num_data = 3;
+	const int num_data = 3;
 	const float study_time_data[num_data] = { 0, 1, 2 };
 	const float score_data[num_data] = { 0, 2, 4 };
 
@@ -31,7 +31,7 @@ int main()
 		const float sqr_error = 0.5 * error * error; //always 0 or positive
 
 
-		std::cout <<  << std::endl;
+		std::cout <<"Hello!"  << std::endl;
 	}
 	return 0;
 }
