@@ -28,7 +28,9 @@ int main()
 		const float y_target = score_data[i];
 		const float error = y_output - y_target;
 
-		const float sqr_error = error * error; //always 0 or positive
+		const float sqr_error = 0.5 * error * error; //always 0 or positive
+
+
 		std::cout <<  << std::endl;
 	}
 	return 0;
