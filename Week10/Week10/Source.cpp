@@ -93,7 +93,7 @@ int main()
 		}
 	std::cout << "Random data is generated as follow: y = 3 * x + 1" << std::endl;
 	std::cout << "Our a and b results: a = " << lh.a_ << " b = " << lh.b_ << std::endl;
-	std::cout << "Result from non-linear hypothesis: a = " << nonLh.u_ << " b = " << nonLh.u_ << " c = " << nonLh.c_ << std::endl;
+	//std::cout << "Result from non-linear hypothesis: a = " << nonLh.u_ << " b = " << nonLh.u_ << " c = " << nonLh.c_ << std::endl;
 	// trained hypothesis
 	//std::cout << "From trained hypothesis " << lh.getY(2.5) << std::endl;
 	
